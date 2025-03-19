@@ -9,6 +9,23 @@
     padding: 30px;
   }
 
+  .row {
+    display: flex;
+    align-items: center; /* Centra verticalmente la imagen y el texto */
+  }
+
+  .about-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .about-info div {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+  }
+
   .skills-content h5 {
     font-size: 18px;
     font-weight: 700;
