@@ -20,6 +20,8 @@
      // 🔹 Añadir flexbox para centrar elementos verticalmente
      display: flex;
      align-items: center;
+     justify-content: center; /* Centra horizontalmente */
+     pointer-events: none;
 
     .icon {
       color: var(--contrast-color);

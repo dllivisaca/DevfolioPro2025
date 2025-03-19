@@ -862,6 +862,9 @@ section,
   /* Ajusta según necesites */
   display: flex;
   align-items: center;
+  justify-content: center;
+  /* Centra horizontalmente */
+  pointer-events: none;
 }
 
 .services .service-item .icon {
