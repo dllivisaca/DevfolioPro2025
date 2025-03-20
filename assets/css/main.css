@@ -760,6 +760,10 @@ section,
   background-color: var(--accent-color);
 }
 
+.about .about-me {
+  text-align: justify;
+}
+
 .about .about-me h4 {
   font-size: 28px;
   position: relative;
